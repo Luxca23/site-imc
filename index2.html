@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="base">
+        <form action="">
+            <div id="titulo">
+                <p>TABELA IMC</p>
+            </div>
+            <div class="quadro">
+                <div id="imc">
+                    <P><b><i>IMC</i></b></P>
+                    <p>Menos que 18,5</p>
+                    <p>Entre 18,5 e 24,9</p>
+                    <p>Entre 25 e 29,9</p>
+                    <p>Entre 30 e 34,9</p>
+                    <p>Entre 35 e 39,9</p>
+                    <p>Mais do que 40</p>
+                </div>
+                <div id="resultado">
+                    <P><b><i>Resultado</i></b></P>
+                    <p>Abaixo do peso</p>
+                    <p>Peso normal</p>
+                    <p>Sobrepeso</p>
+                    <p>Obesidade grau I</p>
+                    <p>Obesidade grau II</p>
+                    <p>Obesidade grau III</p>
+                </div>
+            </div>
+            <br/>
+            <div class="texto_final">
+                <h3>CALCULE SEU IMC:</h3>
+            </div>
+            <br/>
+            <br/>
+            <label for="peso" id="peso_p">
+                PESO:<br/>
+                <input type="text" name="peso" id="peso" placeholder="Digite seu peso com ponto (.)"><br/>
+            </label><br/>
+            <label for="altura" id="altura_p">
+                ALTURA:<br/>
+                <input type="text" name="altura" id="altura" placeholder="Digite sua Altura com ponto (.)"><br/>
+            </label>
+            <br/>
+            <button><i>Calcular</i></button>
+            <br/>
+            <div class="valor">
+                <p></p>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="especifica">
+            <p>Registro 16®</p>
+        </div>
+    </footer>
+
+    <script src="exe_massivo2.js"></script>
+</body>
+
+</html>
