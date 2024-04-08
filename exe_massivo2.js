@@ -1,5 +1,5 @@
 let botao = document.querySelector('button')
-
+alert("Para melhor experiencia, teste em PC")
 
 botao.addEventListener('click',(e) => {
     let peso = document.querySelector('#peso')
