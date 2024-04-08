@@ -135,7 +135,8 @@ footer{
     }
 
     .base{
-        margin-top: 0px
+        margin-top: 0px;
+        height:100vh;
     }
 
     footer{
