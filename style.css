@@ -133,6 +133,19 @@ footer{
     body{
         background-color: black;
     }
+
+    .base{
+        margin-top: 0px
+    }
+
+    footer{
+        margin-top:0px;
+    }
+
+    .valor{
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
 }
 
 
