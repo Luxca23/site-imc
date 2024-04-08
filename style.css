@@ -150,7 +150,8 @@ footer{
     }
 
     .especifica{
-        height:100%;
+        height:200px;
+        justify-content: center;
     }
 }
 
