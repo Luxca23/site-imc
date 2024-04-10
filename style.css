@@ -132,16 +132,19 @@ footer{
 
 header{
     width:100%;
-    height:110px;
+    height:60px;
     background-color: gray;
+    display: flex;
+    justify-content: center;
 }
 
 #assinatura{
     font-family: Bungee Spice;
     background-color:black;
-    width:30px;
-    border-top-right-radius:100%;
-    border-bottom-right-radius: 100%;
+    width:60px;
+    height:50px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 
