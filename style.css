@@ -110,20 +110,14 @@ footer{
     height:100px;
 }
 
-.especifica p{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 1px 2px 5px rgb(0, 0, 0);
-    padding: 0;
-    margin: 0;
-}
 
 .especifica{
     height:100px;
     width:100%;
     text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .texto_final h3 {
