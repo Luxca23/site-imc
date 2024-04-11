@@ -1,11 +1,13 @@
 let botao = document.querySelector('button')
+alert("Para melhor experiencia, use no PC")
 
 
 botao.addEventListener('click',(e) => {
     let peso = document.querySelector('#peso')
     let altura = document.querySelector('#altura')
     let resultado = document.querySelector('.valor')
-    
+
+
     let peso_convertido = Number(peso.value)
     let altura_convertida = Number(altura.value)
     
@@ -14,7 +16,7 @@ botao.addEventListener('click',(e) => {
         let valor2 = parseFloat(valor.toFixed(2))
         if(peso && altura){
             if(valor2 < 18.5){
-                resultado.innerText = "Você esta abaixo do peso!"
+                resultado.innerText = "abaixo do peso!"
                 resultado.style.backgroundColor = 'yellow';
                 resultado.style.fontFamily = 'Lucida Sans'
                 resultado.style.color = 'black' 
@@ -26,25 +28,25 @@ botao.addEventListener('click',(e) => {
                 resultado.style.color = 'white' 
                 console.log(valor2)
             }else if(valor2 >= 25 && valor <= 29.9){
-                resultado.innerText = "Você esta com sobrepeso!"
+                resultado.innerText = "sobrepeso!"
                 resultado.style.backgroundColor = 'orangered';
                 resultado.style.fontFamily = 'Lucida Sans'
                 resultado.style.color = 'black' 
                 console.log(valor2)
             }else if(valor2 >= 30 && valor <= 34.9){
-                resultado.innerText = "Você esta com Obesidade grau I"
+                resultado.innerText = "Obesidade grau I"
                 resultado.style.backgroundColor = 'red';
                 resultado.style.fontFamily = 'Lucida Sans'
                 resultado.style.color = 'yellow' 
                 console.log(valor2)
             }else if(valor2 >= 35 && valor <= 39.9){
-                resultado.innerText = "Você esta com Obesidade grau II"
+                resultado.innerText = "Obesidade grau II"
                 resultado.style.backgroundColor = 'red';
                 resultado.style.fontFamily = 'Lucida Sans'
                 resultado.style.color = 'yellow' 
                 console.log(valor2)
             }else if(valor2 >= 40){
-                resultado.innerText = "Você esta com Obesidade grau III"
+                resultado.innerText = "Obesidade grau III"
                 resultado.style.backgroundColor = 'black';
                 resultado.style.fontFamily = 'Lucida Sans'
                 resultado.style.color = 'orange' 
